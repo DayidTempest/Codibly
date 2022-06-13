@@ -35,15 +35,12 @@ public class BubbleSort{
                         input.set(j, second);
                     }else{
                         input.set(j, second);
-                    }
-                    
-                    
+                    }                    
                 }
             }
-            System.out.println(input);
-
         }
 
         return input;
+        
     }
 }
