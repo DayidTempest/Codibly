@@ -1,13 +1,9 @@
 package BubbleSort;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThrows;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.Test;
 
 
 public class BubbleSort{
@@ -53,34 +49,10 @@ public class BubbleSort{
 
 
     public static void main(String[] args){
-        BubbleSort bubble = new BubbleSort();
-        List<Number> list = new ArrayList<Number>(Arrays.asList(null,5.0001));
 
-        bubble.sort(null);
-    }
-
-
-    @Test
-    public void test0(){
-
-       final BubbleSort bubble = new BubbleSort();
-       List<Number> list = new ArrayList<Number>(Arrays.asList(1,4,5,6,8,3,8));
-       List<Number> odp = new ArrayList<Number>(Arrays.asList(1,3,4,5,6,8,8));
-       assertEquals(odp, bubble.sort(list));
-
-       list = new ArrayList<Number>(Arrays.asList(-9.3,0.2,4,0.1,5,9));
-       odp = new ArrayList<Number>(Arrays.asList(-9.3,0.1,0.2,4,5,9));
-       assertEquals(odp, bubble.sort(list));
-
-       list = Arrays.asList();
-       odp = Arrays.asList();
-       assertEquals(odp, bubble.sort(list));
-
-       list = new ArrayList<Number>(Arrays.asList(null,5.0001));
-       odp = new ArrayList<Number>(Arrays.asList(5.0001));
-       assertEquals(odp, bubble.sort(list));
-
-       assertThrows(RuntimeException.class, () -> bubble.sort(null));
+        // BubbleSort bubble = new BubbleSort();
+        // List<Number> list = new ArrayList<Number>(Arrays.asList(null,5.0001));
+        // bubble.sort(list);
 
     }
 }
