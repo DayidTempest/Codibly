@@ -1,0 +1,7 @@
+// 1
+
+Java does pass by value. By passing by value we create something like clone on with we can do whatever we want but the main value wont be changed by working on our "clone". By passing by reference we operate on main values and every change happend to them
+
+// 2
+
+It clear memory of not used variables without need of programmer to clear it manualy.  In c++ we dont have something like this and we need to keep a eye on memory by ourself
