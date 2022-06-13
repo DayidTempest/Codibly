@@ -46,13 +46,4 @@ public class BubbleSort{
 
         return input;
     }
-
-
-    public static void main(String[] args){
-
-        // BubbleSort bubble = new BubbleSort();
-        // List<Number> list = new ArrayList<Number>(Arrays.asList(null,5.0001));
-        // bubble.sort(list);
-
-    }
 }
