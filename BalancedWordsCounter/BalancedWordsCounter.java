@@ -9,6 +9,10 @@ public class BalancedWordsCounter {
 
     public int count(String string) throws RuntimeException{
 
+        if(string == null){
+            throw new RuntimeException();
+        }
+
         int count = 0;
         int length = string.length();
 
@@ -59,13 +63,5 @@ public class BalancedWordsCounter {
 
         }
         return count;
-    }
-
-    public static void main(String[] args){
-
-        BalancedWordsCounter count = new BalancedWordsCounter();
-
-        System.out.println(count.count("mama"));
-
     }
 }
