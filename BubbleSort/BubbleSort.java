@@ -24,9 +24,12 @@ public class BubbleSort{
                 
                 Number first = input.get(j), second = input.get(j-1);
 
+                if(second.doubleValue() > first.doubleValue()){
+
                         input.set(j-1, first);
                         input.set(j, second);
-                  
+                   
+                }
             }
         }
 
